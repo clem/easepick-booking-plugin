@@ -1,0 +1,33 @@
+{
+  "name": "easepick-booking-plugin",
+  "description": "Booking plugin for easepick.",
+  "version": "0.2.1",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@easepick/base-plugin": "^1.1.0",
+    "@easepick/core": "^1.2.1",
+    "@easepick/datetime": "^1.2.1"
+  },
+  "author": {
+    "name": "Clément Delmas",
+    "email": "clement.delmas@gmail.com"
+  },
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clem/easepick-booking-plugin.git",
+    "directory": "src"
+  },
+  "homepage": "https://easepick.com",
+  "bugs": {
+    "url": "https://github.com/clem/easepick-booking-plugin/issues"
+  },
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}

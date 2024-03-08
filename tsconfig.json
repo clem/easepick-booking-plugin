@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "declarationDir": "types",
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "emitDeclarationOnly": true,
+    "composite": true,
+    "lib": ["ES2018", "dom"],
+  },
+  "files": [
+    "src/index.ts",
+    "src/interface.ts",
+    "src/bookings-converter.ts",
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
